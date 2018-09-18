@@ -10,6 +10,7 @@ function johnLennonFacts(jlFacts){
     var i = 0
   while(i < jlFacts.length){
     jlFacts[i] = `${jlFacts[i]}!!!`
+    i++
   }
   return jlFacts
 }
