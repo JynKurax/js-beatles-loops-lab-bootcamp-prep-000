@@ -1,4 +1,4 @@
-function theBeatlesPlay(instrumentList, musicianList){
+function theBeatlesPlay(musicianList, instrumentList){
  var beatleFacts = []
   for(var i = 0; i < musicianList.length; i++){
     beatleFacts.push(`${musicianList[i]} plays ${instrumentList[i]}`)
